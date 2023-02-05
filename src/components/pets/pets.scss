@@ -1,0 +1,21 @@
+.pets {
+}
+
+.petlist {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(203, 149, 170);
+    padding: 30px;
+    line-height: 40px;
+    border: 1px solid rgb(175, 93, 117);
+    border-radius: 20px;
+    font-family: sans-serif;
+    
+  }
+}
